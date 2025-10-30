@@ -41,8 +41,10 @@ Both models were trained on normalized steering angles and evaluated within the 
 ## Requirements
 - Python 3.x
 - Microsoft Airsim
-- Jupyter Notebook, Google Colab or any preferred IDE
+- VSCode, Jupyter Notebook, or any preferred IDE
 - run the codes cellwise
 # Usage
-- Use the GUI to capture images and then augment them to create the dataset
-- run 
+- run airsim_datacollect.py to collect the dataset
+- run utils.py to train and test the model
+- run validation to check the results
+- run the actualVSpred.py to compare results
