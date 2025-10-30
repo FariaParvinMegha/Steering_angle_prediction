@@ -1,3 +1,4 @@
+# Steering angle prediction of Autonomous Vehicles
 The project implements a deep learning-based Convolutional Neural Network (**CNN**) model and a transfer learning-based **VGG16** model to **predict steering angle** in **automated vehicles**. **Microsoft AirSim** has been used for data acquisition and evaluation of the model. During the test run, the CNN and VGG16 model achieved an autonomy of 92% and 94% respectively. Performance is compared with the **NVIDIA PilotNet** baseline, showing **improved autonomy and efficiency with less data**. 
 
 # Table of Contents
@@ -34,3 +35,13 @@ Both models were trained on normalized steering angles and evaluated within the 
 | PilotNet | 86%                       | 92%                          | 15  |
 | CNN      | 92%                       | 99%                          | 12  |
 | VGG16    | 94%                       | 99%                          | 10  |
+
+# Installation
+## Requirements
+- Python 3.x
+- Jupyter Notebook, Google Colab or any preferred IDE
+- run the codes cellwise
+# Usage
+- Load the Dataset: Import the dataset from Smart Grid Corporation China into the working directory.
+- Run Model Comparisons: Execute the notebook or script to train and test each model on the dataset.
+- Evaluate Results: Compare the accuracy and performance of each model to verify the effectiveness of the 1D CNN model.
