@@ -7,6 +7,7 @@ The project implements a deep learning-based Convolutional Neural Network (**CNN
 - [Architecture](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#architecture)
 - [Dataset and Preprocessing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#dataset-and-preprocessing)
 - [Model Training and Testing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#model-training-and-testing)
+- [Usage](https://github.com/FariaParvinMegha/Electricity_fraud/blob/main/README.md#usage)
 
 # Introduction
 The project addresses the limitations of modular autonomous vehicle systems by adopting an end-to-end learning approach where perception, prediction, and planning are jointly optimized. The proposed CNN and VGG16 models predict steering angles directly from camera input, reducing computational complexity and cumulative module errors.
@@ -39,9 +40,9 @@ Both models were trained on normalized steering angles and evaluated within the 
 # Installation
 ## Requirements
 - Python 3.x
+- Microsoft Airsim
 - Jupyter Notebook, Google Colab or any preferred IDE
 - run the codes cellwise
 # Usage
-- Load the Dataset: Import the dataset from Smart Grid Corporation China into the working directory.
-- Run Model Comparisons: Execute the notebook or script to train and test each model on the dataset.
-- Evaluate Results: Compare the accuracy and performance of each model to verify the effectiveness of the 1D CNN model.
+- Use the GUI to capture images and then augment them to create the dataset
+- run 
