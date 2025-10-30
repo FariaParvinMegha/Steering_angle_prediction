@@ -4,8 +4,8 @@ The project implements a deep learning-based Convolutional Neural Network (**CNN
 - [Introduction](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#introduction)
 - [Features](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#features)
 - [Architecture](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#architecture)
-- [Dataset and Preprocessing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#dataset_and_preprocessing)
-- [Model Training and Testing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#model_training_and_testing)
+- [Dataset and Preprocessing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#dataset-and-preprocessing)
+- [Model Training and Testing](https://github.com/FariaParvinMegha/Steering_angle_prediction/blob/master/README.md#model-training-and-testing)
 
 # Introduction
 The project addresses the limitations of modular autonomous vehicle systems by adopting an end-to-end learning approach where perception, prediction, and planning are jointly optimized. The proposed CNN and VGG16 models predict steering angles directly from camera input, reducing computational complexity and cumulative module errors.
